@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <script src="https://unpkg.com/vue/dist/vue.js"></script>
+  <script src="https://cdn.jsdelivr.net/lodash/4.13.1/lodash.js"></script>
+  <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+  <link rel="stylesheet" href="index.css"/>
+  <title>try vue.js router</title>
+</head>
+<body>
+<div id="app" style="text-align: center;">
+
+  <router-link to="/step_one">Go to step one</router-link>
+  <router-link to="/step_two">Go to step two</router-link>
+
+  <router-view class="view one"></router-view>
+  <router-view name="a"></router-view>
+
+</div>
+
+<!-- Shared Data State -->
+<!--
+<div id="app">
+
+  <div class="container">
+    <div class="row">
+      <shared1></shared1>
+      <shared2></shared2>
+    </div>
+  </div>
+
+</div>
+
+
+<template id="shared1">
+  <div class="col-md-4 col-md-offset-2">
+    <div class="panel panel-default">
+      <div class="panel-heading">Shared 1</div>
+      <pre>{{ $data }}</pre>
+      <div class="panel-body">
+        <button @click="updatePrivate()">Update private</button>
+        <button @click="updateShared()">Update shared</button>
+      </div>
+    </div>
+  </div>
+</template>
+
+<template id="shared2">
+  <div class="col-md-4">
+    <div class="panel panel-default">
+      <div class="panel-heading">Shared 2</div>
+      <pre>{{ $data }}</pre>
+      <div class="panel-body">
+        <button @click="updatePrivate()">Update private</button>
+        <button @click="updateShared()">Update shared</button>
+      </div>
+    </div>
+  </div>
+</template>
+
+
+
+<script src="https://code.jquery.com/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.3/vue.js"></script>-->
+
+
+<!-- vue-router -->
+<!--<div id="app">
+  <p>
+    <router-link to="/user/foo">/user/foo</router-link>
+    <router-link to="/user/foo/profile">/user/foo/profile</router-link>
+    <router-link to="/user/foo/posts">/user/foo/posts</router-link>
+  </p>
+  <router-view></router-view>
+</div>-->
+
+
+<!--<div id="card">
+  <header>{{title}}<span @click="toggle"> {{ toggleLabel }}</span></header>
+  <ul>
+    <li v-for="item in items">
+      <keep-alive>
+        <component v-bind:is="currentView"
+          v-bind:name="item.text"
+          v-bind:initial-quantity="item.quantity"
+          v-bind:diet="item.diet"></component>
+      </keep-alive>
+    </li>
+  </ul>
+  <p>Total Dinosaurs: {{total}}</p>
+</div>-->
+<script type="text/x-template" id="dino-edit">
+  <div>
+    <button @click="increment">{{quantity}}</button>
+    {{name}}
+  </div>
+</script>
+
+<script type="text/x-template" id="dino-show">
+  <div>
+    <div><strong>{{name}}</strong> | {{diet}}</div>
+  </div>
+</script>
+
+<script src="index.js"></script>
+
+</body>
+</html>
