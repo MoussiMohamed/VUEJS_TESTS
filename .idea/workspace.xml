@@ -23,14 +23,14 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="834">
-                  <caret line="52" column="9" lean-forward="false" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
+                <state relative-caret-position="552">
+                  <caret line="33" column="32" lean-forward="true" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
                   <folding>
                     <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="e#2628#2895#0" expanded="false" />
-                    <element signature="e#2898#3308#0" expanded="false" />
-                    <element signature="e#3312#3585#0" expanded="false" />
-                    <marker date="1494345149285" expanded="false" signature="3502:3581" ph="..." />
+                    <element signature="e#2664#2931#0" expanded="false" />
+                    <element signature="e#2934#3344#0" expanded="false" />
+                    <element signature="e#3348#3621#0" expanded="false" />
+                    <marker date="1494346089981" expanded="false" signature="3538:3617" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -53,26 +53,26 @@
           <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="621">
-                  <caret line="48" column="21" lean-forward="false" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
+                <state relative-caret-position="293">
+                  <caret line="28" column="12" lean-forward="true" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
                   <folding>
-                    <element signature="e#1825#4935#0" expanded="false" />
-                    <element signature="e#4937#6411#0" expanded="false" />
-                    <marker date="1494345096573" expanded="false" signature="1844:2120" ph="{&quot;template&quot;: &quot;##dino-edit&quot;...}" />
-                    <marker date="1494345096573" expanded="false" signature="2138:2192" ph="{&quot;template&quot;: '##dino-show'...}" />
-                    <marker date="1494345096573" expanded="false" signature="2849:2970" ph="{...}" />
-                    <marker date="1494345096573" expanded="false" signature="3601:3985" ph="{...}" />
-                    <marker date="1494345096573" expanded="false" signature="3632:3742" ph="{...}" />
-                    <marker date="1494345096573" expanded="false" signature="3772:3855" ph="{...}" />
-                    <marker date="1494345096573" expanded="false" signature="3879:3982" ph="{...}" />
-                    <marker date="1494345096573" expanded="false" signature="3998:4533" ph="{...}" />
-                    <marker date="1494345096573" expanded="true" signature="4548:4599" ph="{&quot;dino-edit&quot;: dinoEdit...}" />
-                    <marker date="1494345096573" expanded="false" signature="5298:5652" ph="{...}" />
-                    <marker date="1494345096573" expanded="true" signature="5329:5499" ph="..." />
-                    <marker date="1494345096573" expanded="false" signature="5721:5793" ph="{...}" />
-                    <marker date="1494345096573" expanded="false" signature="5995:6408" ph="..." />
-                    <marker date="1494345096573" expanded="true" signature="6121:6408" ph="..." />
-                    <marker date="1494345096573" expanded="false" signature="6263:6408" ph="..." />
+                    <element signature="e#2043#5153#0" expanded="false" />
+                    <element signature="e#5155#6629#0" expanded="false" />
+                    <marker date="1494346652705" expanded="false" signature="2062:2338" ph="{&quot;template&quot;: &quot;##dino-edit&quot;...}" />
+                    <marker date="1494346652705" expanded="false" signature="2356:2410" ph="{&quot;template&quot;: '##dino-show'...}" />
+                    <marker date="1494346652705" expanded="false" signature="3067:3188" ph="{...}" />
+                    <marker date="1494346652705" expanded="false" signature="3819:4203" ph="{...}" />
+                    <marker date="1494346652705" expanded="false" signature="3850:3960" ph="{...}" />
+                    <marker date="1494346652705" expanded="false" signature="3990:4073" ph="{...}" />
+                    <marker date="1494346652705" expanded="false" signature="4097:4200" ph="{...}" />
+                    <marker date="1494346652705" expanded="false" signature="4216:4751" ph="{...}" />
+                    <marker date="1494346652705" expanded="true" signature="4766:4817" ph="{&quot;dino-edit&quot;: dinoEdit...}" />
+                    <marker date="1494346652705" expanded="false" signature="5516:5870" ph="{...}" />
+                    <marker date="1494346652705" expanded="true" signature="5547:5717" ph="..." />
+                    <marker date="1494346652705" expanded="false" signature="5939:6011" ph="{...}" />
+                    <marker date="1494346652705" expanded="false" signature="6213:6626" ph="..." />
+                    <marker date="1494346652705" expanded="true" signature="6339:6626" ph="..." />
+                    <marker date="1494346652705" expanded="false" signature="6481:6626" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -97,6 +97,7 @@
       <find>dinos</find>
       <find>matched</find>
       <find>StepTwo</find>
+      <find>sharedchosen</find>
     </findStrings>
     <replaceStrings>
       <replace>quantity</replace>
@@ -111,8 +112,8 @@
         <option value="$PROJECT_DIR$/index.css" />
         <option value="$PROJECT_DIR$/step_one.VUE" />
         <option value="$PROJECT_DIR$/routes.js" />
-        <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/index.js" />
       </list>
     </option>
   </component>
@@ -289,15 +290,15 @@
       <workItem from="1493975787151" duration="11108000" />
       <workItem from="1494232506671" duration="17834000" />
       <workItem from="1494321652871" duration="15900000" />
-      <workItem from="1494344076844" duration="1074000" />
+      <workItem from="1494344076844" duration="3088000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60264000" />
+    <option name="totallyTimeSpent" value="62278000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-3" y="0" width="1926" height="1056" extended-state="7" />
+    <frame x="-3" y="0" width="1926" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24895833" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -355,10 +356,10 @@
           <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#2628#2895#0" expanded="false" />
-            <element signature="e#2898#3308#0" expanded="false" />
-            <element signature="e#3312#3585#0" expanded="false" />
-            <marker date="1494345149285" expanded="false" signature="3502:3581" ph="..." />
+            <element signature="e#2664#2931#0" expanded="false" />
+            <element signature="e#2934#3344#0" expanded="false" />
+            <element signature="e#3348#3621#0" expanded="false" />
+            <marker date="1494346089981" expanded="false" signature="3538:3617" ph="..." />
           </folding>
         </state>
       </provider>
@@ -376,23 +377,23 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#1825#4935#0" expanded="false" />
-            <element signature="e#4937#6411#0" expanded="false" />
-            <marker date="1494345096573" expanded="false" signature="1844:2120" ph="{&quot;template&quot;: &quot;##dino-edit&quot;...}" />
-            <marker date="1494345096573" expanded="false" signature="2138:2192" ph="{&quot;template&quot;: '##dino-show'...}" />
-            <marker date="1494345096573" expanded="false" signature="2849:2970" ph="{...}" />
-            <marker date="1494345096573" expanded="false" signature="3601:3985" ph="{...}" />
-            <marker date="1494345096573" expanded="false" signature="3632:3742" ph="{...}" />
-            <marker date="1494345096573" expanded="false" signature="3772:3855" ph="{...}" />
-            <marker date="1494345096573" expanded="false" signature="3879:3982" ph="{...}" />
-            <marker date="1494345096573" expanded="false" signature="3998:4533" ph="{...}" />
-            <marker date="1494345096573" expanded="true" signature="4548:4599" ph="{&quot;dino-edit&quot;: dinoEdit...}" />
-            <marker date="1494345096573" expanded="false" signature="5298:5652" ph="{...}" />
-            <marker date="1494345096573" expanded="true" signature="5329:5499" ph="..." />
-            <marker date="1494345096573" expanded="false" signature="5721:5793" ph="{...}" />
-            <marker date="1494345096573" expanded="false" signature="5995:6408" ph="..." />
-            <marker date="1494345096573" expanded="true" signature="6121:6408" ph="..." />
-            <marker date="1494345096573" expanded="false" signature="6263:6408" ph="..." />
+            <element signature="e#2043#5153#0" expanded="false" />
+            <element signature="e#5155#6629#0" expanded="false" />
+            <marker date="1494346652705" expanded="false" signature="2062:2338" ph="{&quot;template&quot;: &quot;##dino-edit&quot;...}" />
+            <marker date="1494346652705" expanded="false" signature="2356:2410" ph="{&quot;template&quot;: '##dino-show'...}" />
+            <marker date="1494346652705" expanded="false" signature="3067:3188" ph="{...}" />
+            <marker date="1494346652705" expanded="false" signature="3819:4203" ph="{...}" />
+            <marker date="1494346652705" expanded="false" signature="3850:3960" ph="{...}" />
+            <marker date="1494346652705" expanded="false" signature="3990:4073" ph="{...}" />
+            <marker date="1494346652705" expanded="false" signature="4097:4200" ph="{...}" />
+            <marker date="1494346652705" expanded="false" signature="4216:4751" ph="{...}" />
+            <marker date="1494346652705" expanded="true" signature="4766:4817" ph="{&quot;dino-edit&quot;: dinoEdit...}" />
+            <marker date="1494346652705" expanded="false" signature="5516:5870" ph="{...}" />
+            <marker date="1494346652705" expanded="true" signature="5547:5717" ph="..." />
+            <marker date="1494346652705" expanded="false" signature="5939:6011" ph="{...}" />
+            <marker date="1494346652705" expanded="false" signature="6213:6626" ph="..." />
+            <marker date="1494346652705" expanded="true" signature="6339:6626" ph="..." />
+            <marker date="1494346652705" expanded="false" signature="6481:6626" ph="..." />
           </folding>
         </state>
       </provider>
@@ -403,10 +404,10 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#2628#2895#0" expanded="false" />
-            <element signature="e#2898#3308#0" expanded="false" />
-            <element signature="e#3312#3585#0" expanded="false" />
-            <marker date="1494345149285" expanded="false" signature="3502:3581" ph="..." />
+            <element signature="e#2664#2931#0" expanded="false" />
+            <element signature="e#2934#3344#0" expanded="false" />
+            <element signature="e#3348#3621#0" expanded="false" />
+            <marker date="1494346089981" expanded="false" signature="3538:3617" ph="..." />
           </folding>
         </state>
       </provider>
@@ -417,10 +418,10 @@
           <caret line="25" column="28" lean-forward="false" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#2628#2895#0" expanded="false" />
-            <element signature="e#2898#3308#0" expanded="false" />
-            <element signature="e#3312#3585#0" expanded="false" />
-            <marker date="1494345149285" expanded="false" signature="3502:3581" ph="..." />
+            <element signature="e#2664#2931#0" expanded="false" />
+            <element signature="e#2934#3344#0" expanded="false" />
+            <element signature="e#3348#3621#0" expanded="false" />
+            <marker date="1494346089981" expanded="false" signature="3538:3617" ph="..." />
           </folding>
         </state>
       </provider>
@@ -438,23 +439,23 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#1825#4935#0" expanded="false" />
-            <element signature="e#4937#6411#0" expanded="false" />
-            <marker date="1494345096573" expanded="false" signature="1844:2120" ph="{&quot;template&quot;: &quot;##dino-edit&quot;...}" />
-            <marker date="1494345096573" expanded="false" signature="2138:2192" ph="{&quot;template&quot;: '##dino-show'...}" />
-            <marker date="1494345096573" expanded="false" signature="2849:2970" ph="{...}" />
-            <marker date="1494345096573" expanded="false" signature="3601:3985" ph="{...}" />
-            <marker date="1494345096573" expanded="false" signature="3632:3742" ph="{...}" />
-            <marker date="1494345096573" expanded="false" signature="3772:3855" ph="{...}" />
-            <marker date="1494345096573" expanded="false" signature="3879:3982" ph="{...}" />
-            <marker date="1494345096573" expanded="false" signature="3998:4533" ph="{...}" />
-            <marker date="1494345096573" expanded="true" signature="4548:4599" ph="{&quot;dino-edit&quot;: dinoEdit...}" />
-            <marker date="1494345096573" expanded="false" signature="5298:5652" ph="{...}" />
-            <marker date="1494345096573" expanded="true" signature="5329:5499" ph="..." />
-            <marker date="1494345096573" expanded="false" signature="5721:5793" ph="{...}" />
-            <marker date="1494345096573" expanded="false" signature="5995:6408" ph="..." />
-            <marker date="1494345096573" expanded="true" signature="6121:6408" ph="..." />
-            <marker date="1494345096573" expanded="false" signature="6263:6408" ph="..." />
+            <element signature="e#2043#5153#0" expanded="false" />
+            <element signature="e#5155#6629#0" expanded="false" />
+            <marker date="1494346652705" expanded="false" signature="2062:2338" ph="{&quot;template&quot;: &quot;##dino-edit&quot;...}" />
+            <marker date="1494346652705" expanded="false" signature="2356:2410" ph="{&quot;template&quot;: '##dino-show'...}" />
+            <marker date="1494346652705" expanded="false" signature="3067:3188" ph="{...}" />
+            <marker date="1494346652705" expanded="false" signature="3819:4203" ph="{...}" />
+            <marker date="1494346652705" expanded="false" signature="3850:3960" ph="{...}" />
+            <marker date="1494346652705" expanded="false" signature="3990:4073" ph="{...}" />
+            <marker date="1494346652705" expanded="false" signature="4097:4200" ph="{...}" />
+            <marker date="1494346652705" expanded="false" signature="4216:4751" ph="{...}" />
+            <marker date="1494346652705" expanded="true" signature="4766:4817" ph="{&quot;dino-edit&quot;: dinoEdit...}" />
+            <marker date="1494346652705" expanded="false" signature="5516:5870" ph="{...}" />
+            <marker date="1494346652705" expanded="true" signature="5547:5717" ph="..." />
+            <marker date="1494346652705" expanded="false" signature="5939:6011" ph="{...}" />
+            <marker date="1494346652705" expanded="false" signature="6213:6626" ph="..." />
+            <marker date="1494346652705" expanded="true" signature="6339:6626" ph="..." />
+            <marker date="1494346652705" expanded="false" signature="6481:6626" ph="..." />
           </folding>
         </state>
       </provider>
@@ -465,10 +466,10 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#2628#2895#0" expanded="false" />
-            <element signature="e#2898#3308#0" expanded="false" />
-            <element signature="e#3312#3585#0" expanded="false" />
-            <marker date="1494345149285" expanded="false" signature="3502:3581" ph="..." />
+            <element signature="e#2664#2931#0" expanded="false" />
+            <element signature="e#2934#3344#0" expanded="false" />
+            <element signature="e#3348#3621#0" expanded="false" />
+            <marker date="1494346089981" expanded="false" signature="3538:3617" ph="..." />
           </folding>
         </state>
       </provider>
@@ -483,42 +484,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/step_one.VUE" />
     <entry file="file://$PROJECT_DIR$/routes.js" />
-    <entry file="file://$PROJECT_DIR$/index.js">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="48" column="21" lean-forward="false" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
+        <state relative-caret-position="552">
+          <caret line="33" column="32" lean-forward="true" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
           <folding>
-            <element signature="e#1825#4935#0" expanded="false" />
-            <element signature="e#4937#6411#0" expanded="false" />
-            <marker date="1494345096573" expanded="false" signature="1844:2120" ph="{&quot;template&quot;: &quot;##dino-edit&quot;...}" />
-            <marker date="1494345096573" expanded="false" signature="2138:2192" ph="{&quot;template&quot;: '##dino-show'...}" />
-            <marker date="1494345096573" expanded="false" signature="2849:2970" ph="{...}" />
-            <marker date="1494345096573" expanded="false" signature="3601:3985" ph="{...}" />
-            <marker date="1494345096573" expanded="false" signature="3632:3742" ph="{...}" />
-            <marker date="1494345096573" expanded="false" signature="3772:3855" ph="{...}" />
-            <marker date="1494345096573" expanded="false" signature="3879:3982" ph="{...}" />
-            <marker date="1494345096573" expanded="false" signature="3998:4533" ph="{...}" />
-            <marker date="1494345096573" expanded="true" signature="4548:4599" ph="{&quot;dino-edit&quot;: dinoEdit...}" />
-            <marker date="1494345096573" expanded="false" signature="5298:5652" ph="{...}" />
-            <marker date="1494345096573" expanded="true" signature="5329:5499" ph="..." />
-            <marker date="1494345096573" expanded="false" signature="5721:5793" ph="{...}" />
-            <marker date="1494345096573" expanded="false" signature="5995:6408" ph="..." />
-            <marker date="1494345096573" expanded="true" signature="6121:6408" ph="..." />
-            <marker date="1494345096573" expanded="false" signature="6263:6408" ph="..." />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#2664#2931#0" expanded="false" />
+            <element signature="e#2934#3344#0" expanded="false" />
+            <element signature="e#3348#3621#0" expanded="false" />
+            <marker date="1494346089981" expanded="false" signature="3538:3617" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="834">
-          <caret line="52" column="9" lean-forward="false" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
+        <state relative-caret-position="293">
+          <caret line="28" column="12" lean-forward="true" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#2628#2895#0" expanded="false" />
-            <element signature="e#2898#3308#0" expanded="false" />
-            <element signature="e#3312#3585#0" expanded="false" />
-            <marker date="1494345149285" expanded="false" signature="3502:3581" ph="..." />
+            <element signature="e#2043#5153#0" expanded="false" />
+            <element signature="e#5155#6629#0" expanded="false" />
+            <marker date="1494346652705" expanded="false" signature="2062:2338" ph="{&quot;template&quot;: &quot;##dino-edit&quot;...}" />
+            <marker date="1494346652705" expanded="false" signature="2356:2410" ph="{&quot;template&quot;: '##dino-show'...}" />
+            <marker date="1494346652705" expanded="false" signature="3067:3188" ph="{...}" />
+            <marker date="1494346652705" expanded="false" signature="3819:4203" ph="{...}" />
+            <marker date="1494346652705" expanded="false" signature="3850:3960" ph="{...}" />
+            <marker date="1494346652705" expanded="false" signature="3990:4073" ph="{...}" />
+            <marker date="1494346652705" expanded="false" signature="4097:4200" ph="{...}" />
+            <marker date="1494346652705" expanded="false" signature="4216:4751" ph="{...}" />
+            <marker date="1494346652705" expanded="true" signature="4766:4817" ph="{&quot;dino-edit&quot;: dinoEdit...}" />
+            <marker date="1494346652705" expanded="false" signature="5516:5870" ph="{...}" />
+            <marker date="1494346652705" expanded="true" signature="5547:5717" ph="..." />
+            <marker date="1494346652705" expanded="false" signature="5939:6011" ph="{...}" />
+            <marker date="1494346652705" expanded="false" signature="6213:6626" ph="..." />
+            <marker date="1494346652705" expanded="true" signature="6339:6626" ph="..." />
+            <marker date="1494346652705" expanded="false" signature="6481:6626" ph="..." />
           </folding>
         </state>
       </provider>

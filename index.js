@@ -1,13 +1,8 @@
 var Store = {
-  debug: true,
   state: {
     sharedChosenData: {
-      step_one: {
-        data: ''
-      },
-      step_two: {
-        data: ''
-      }
+      step_one: { data: '' },
+      step_two: { data: '' }
     }
   }
 };
@@ -26,6 +21,16 @@ var StepOneComponent = Vue.extend({
 
 var StepTwoComponent = Vue.extend({
   template: '#step-two',
+  beforeRouteEnter: function(to, from, next) {
+    if (from.name === 'step_one') {
+      if(Store.state.sharedChosenData.step_one.data === '') {
+        return;
+      }
+      else {
+        next();
+      }
+    }
+  },
   data: function() {
     return {
       step_two_items: ['param one', 'param two', 'param three'],
@@ -49,6 +54,7 @@ var SharedData = Vue.extend({
 // Vue.extend(), or just a component options object.
 var routes = [
   { path: '/step_one',
+    name: 'step_one',
     // a single route can define multiple named components
     // which will be rendered into <router-view>s with corresponding names.
     components: {
@@ -58,6 +64,7 @@ var routes = [
   },
   {
     path: '/step_two',
+    name: 'step_two',
     components: {
       default: StepTwoComponent,
       sharedData: SharedData

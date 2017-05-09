@@ -11,8 +11,8 @@
 <body>
 <div id="app" style="text-align: center;">
 
-  <router-link to="/step_one">Go to step one</router-link>
-  <router-link to="/step_two">Go to step two</router-link>
+  <router-link :to="{ name: 'step_one' }">Go to step one</router-link>
+  <router-link :to="{ name: 'step_two' }">Go to step two</router-link>
 
 
   <router-view class="view one"></router-view>
@@ -31,7 +31,7 @@
         v-model="shared.sharedChosenData.step_one.data">
       {{item}}</label>
     <h1>Step One</h1>
-    <router-link to="/step_two">Next</router-link>
+    <router-link :to="{ name: 'step_two' }">Next</router-link>
   </div>
 </script>
 
