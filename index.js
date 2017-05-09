@@ -15,12 +15,7 @@ var Store = {
 // 1. Define route components.
 // These can be imported from other files
 var StepOneComponent = Vue.extend({
-  template: '<div>' +
-            '<label v-for="item in step_one_items">' +
-            '<input type="radio" name="step_one" v-bind:value="item" v-model="shared.sharedChosenData.step_one.data">' +
-            ' {{item}}</label>' +
-            '<h1>Step One</h1><router-link to="/step_two">Next</router-link>' +
-            '</div>',
+  template: '#step-one',
   data: function() {
     return {
       step_one_items: ['param one', 'param two'],
@@ -30,12 +25,7 @@ var StepOneComponent = Vue.extend({
 });
 
 var StepTwoComponent = Vue.extend({
-  template: '<div>' +
-            '<label v-for="item in step_two_items">' +
-            '<input type="radio" name="step_two" v-bind:value="item" v-model="shared.sharedChosenData.step_two.data">' +
-            ' {{item}}</label>' +
-            '<h1>Step Two</h1><button>Finish</button>' +
-            '</div>',
+  template: '#step-two',
   data: function() {
     return {
       step_two_items: ['param one', 'param two', 'param three'],
@@ -45,7 +35,7 @@ var StepTwoComponent = Vue.extend({
 });
 
 var SharedData = Vue.extend({
-  template: '<div>{{ $data.shared }}</div>',
+  template: '#shared-data',
   data: function() {
     return {
       shared: Store.state
@@ -63,14 +53,14 @@ var routes = [
     // which will be rendered into <router-view>s with corresponding names.
     components: {
       default: StepOneComponent,
-      a: SharedData
+      sharedData: SharedData
     }
   },
   {
     path: '/step_two',
     components: {
       default: StepTwoComponent,
-      a: SharedData
+      sharedData: SharedData
     }
   }
 ];

@@ -14,10 +14,43 @@
   <router-link to="/step_one">Go to step one</router-link>
   <router-link to="/step_two">Go to step two</router-link>
 
+
   <router-view class="view one"></router-view>
-  <router-view name="a"></router-view>
+  <keep-alive>
+    <router-view name="sharedData"></router-view>
+  </keep-alive>
 
 </div>
+
+<script type="text/x-template" id="step-one">
+  <div>
+    <label v-for="item in step_one_items">
+      <input type="radio"
+        name="step_one"
+        v-bind:value="item"
+        v-model="shared.sharedChosenData.step_one.data">
+      {{item}}</label>
+    <h1>Step One</h1>
+    <router-link to="/step_two">Next</router-link>
+  </div>
+</script>
+
+<script type="text/x-template" id="step-two">
+  <div>
+    <label v-for="item in step_two_items">
+      <input type="radio"
+        name="step_two"
+        v-bind:value="item"
+        v-model="shared.sharedChosenData.step_two.data">
+      {{item}}</label>
+    <h1>Step Two</h1>
+    <button>Finish</button>
+  </div>
+</script>
+
+<script type="text/x-template" id="shared-data">
+  <div>{{ $data.shared }}</div>
+</script>
 
 <!-- Shared Data State -->
 <!--
@@ -92,7 +125,10 @@
   </ul>
   <p>Total Dinosaurs: {{total}}</p>
 </div>-->
-<script type="text/x-template" id="dino-edit">
+
+
+
+<!--<script type="text/x-template" id="dino-edit">
   <div>
     <button @click="increment">{{quantity}}</button>
     {{name}}
@@ -103,7 +139,7 @@
   <div>
     <div><strong>{{name}}</strong> | {{diet}}</div>
   </div>
-</script>
+</script>-->
 
 <script src="index.js"></script>
 
